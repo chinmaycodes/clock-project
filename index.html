@@ -58,18 +58,7 @@
       </nav>
     </header>
 
-    <script>
-    let a;
-    let date;
-    let time;
-    setInterval(() => {
-      a = new Date();
-      time = a.getHours() + ':' + a.getMinutes() + ':' + a.getSeconds();
-      date= a.toLocaleDateString(); 
-      document.getElementById('time').innerHTML = time + ' on ' + date ;
-    }, 1);
-    </script>
-
+    <script src="clockproject.js"></script>
 
 
     <main>
@@ -101,7 +90,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
     -->
 
-
+    <footer id="copyright">
+      <b>Chinmay Verma  &#169; Copyright</b>
+    </footer>
     
   </body>
 </html>

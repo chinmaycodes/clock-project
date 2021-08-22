@@ -1,4 +1,16 @@
-*{
-    margin: 0;
-    padding: 0;
+#copyright{
+    height: 10vh;
+    background-color: black;
+    color: white;
+}
+#copyright b{
+    margin: auto;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light{
+    height: 15vh;
+}
+
+.container{
+    height: 75vh;
 }
